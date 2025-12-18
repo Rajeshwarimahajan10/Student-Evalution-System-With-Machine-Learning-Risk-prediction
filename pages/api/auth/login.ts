@@ -19,11 +19,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     // Check if user is authorized
     const authorizedTeachers = [
-      'mahajanrajeshwari10@gmail.com',
-      'nimbalkarsakshi3@gmail.com',
-      'pushkarrajput108@gmail.com',
-      'kunalkothawade188@gmail.com',
-      'samikshap929@gmail.com'
+      'mail id of teachers '
     ];
 
     const authorizedStudents = [
@@ -82,3 +78,4 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.status(400).json({ message: error.message });
   }
 }
+
