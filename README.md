@@ -187,11 +187,7 @@ Visit `http://localhost:3000` to see the application.
 ## 👥 Authorized Users
 
 ### Teachers (5 authorized accounts)
-- mahajanrajeshwari10@gmail.com
-- nimbalkarsakshi3@gmail.com
-- pushkarrajput108@gmail.com
-- kunalkothawade188@gmail.com
-- samikshap929@gmail.com
+Add 5 authorized teachers account 
 
 ### Students (30 authorized accounts)
 - mariabrown@gmail.com
