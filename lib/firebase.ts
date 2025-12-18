@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBbGkFNgh5bZSD2l96C0k7LEE_EJojhMpc",
+  apiKey: "your api key ",
   authDomain: "student-evaluation-system10.firebaseapp.com",
   projectId: "student-evaluation-system10",
   storageBucket: "student-evaluation-system10.appspot.com",
-  messagingSenderId: "50828787551",
-  appId: "1:50828787551:web:7abf0983ac61f9b92d80ea",
+  messagingSenderId: "",
+  appId: "your app id ",
   measurementId: "G-VZ05JK8YFM"
 };
 
@@ -22,3 +22,4 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 
 export default app;
+
